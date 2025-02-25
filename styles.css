@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2a04d1;
+    padding: 15px 20px;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-links{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img {
+    margin-right: 10px
+}
+
+/* Index */
+.titulo{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.titulop{
+    text-align: center;
+    font-size: 25px;
+}
+
+.imgtitulo{
+    align-items: center;
+}
+
+#destinos {
+    padding: 40px 20px;
+    background: #ffffff;
+}
+
+.destino {
+    display: inline-block;
+    width: 290px;
+    margin: 20px;
+    padding: 15px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.destino h3 {
+    margin: 10px 0;
+    color: #007bff;
+}
+
+#gastronomia {
+    padding: 40px 20px;
+    background: #f8f9fa;
+}
+
+#contacto {
+    padding: 40px 20px;
+    background: #007bff;
+    color: white;
+}
+
+#contacto a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contacto a:hover {
+    text-decoration: underline;
+}
